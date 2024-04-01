@@ -1,0 +1,47 @@
+:root {
+  --color-primary: #120907;
+  --color-secondary: #21223b;
+  --color-tertiary: #585f92;
+  --color4: #9aa4ea;
+  --color5: #d8e2ed;
+}
+
+.bg__primary {
+  background-color: #fff8ff;
+}
+
+.bg__button {
+  background-color: #e0d9e0;
+}
+
+.bg__button__menu {
+  background-color: #c1bbc1;
+}
+
+.color4 {
+  background-color: #a29ca2;
+}
+
+.color5 {
+  background-color: #837d83;
+}
+
+.p {
+  padding: 20px;
+}
+
+.bottom-50 {
+  bottom: 50px !important;
+}
+
+.color-black {
+  color: black;
+}
+
+@media (max-width: 551px) {
+  .list-inline-item  {
+    display: block;
+    margin: 10px;
+  }
+}
+

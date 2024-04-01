@@ -1,0 +1,7 @@
+<section class="container shadow p-3 mb-5 bg-white rounded">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div *ngFor="let livro of livros">
+      <app-card-livro [livro]="livro"></app-card-livro>
+    </div>
+  </div>
+</section>

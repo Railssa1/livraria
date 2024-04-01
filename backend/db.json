@@ -1,0 +1,58 @@
+{
+  "livros": [
+    {
+      "titulo": "Rapunzel",
+      "preco": "123",
+      "autor": "Rosana Rios",
+      "urlImage": "https://www.guiaviagensbrasil.com/imagens/Imagem%20do%20mar%20calma%20e%20belo%20da%20Praia%20da%20Engenhoca-Itacar%C3%A9-Bahia-BA.jpg",
+      "resumo": "Testtrahjdnas",
+      "quantidade": 1,
+      "id": 1
+    },
+    {
+      "titulo": "Contos de fadas",
+      "preco": "98.00",
+      "autor": "Irmãos Grimm",
+      "urlImage": "https://www.guiaviagensbrasil.com/imagens/Imagem%20do%20mar%20calma%20e%20belo%20da%20Praia%20da%20Engenhoca-Itacar%C3%A9-Bahia-BA.jpg",
+      "resumo": "awedwq",
+      "quantidade": 1,
+      "id": 2
+    },
+    {
+      "titulo": "qweed",
+      "preco": "dasd",
+      "autor": "asd",
+      "urlImage": "https://www.guiaviagensbrasil.com/imagens/Imagem%20do%20mar%20calma%20e%20belo%20da%20Praia%20da%20Engenhoca-Itacar%C3%A9-Bahia-BA.jpg",
+      "resumo": "wer",
+      "quantidade": 1,
+      "id": 3
+    },
+    {
+      "titulo": "cas",
+      "preco": "asd",
+      "autor": "asd",
+      "urlImage": "https://m.media-amazon.com/images/I/816M75AiqSL._SY425_.jpg",
+      "resumo": "awsd",
+      "quantidade": 1,
+      "id": 4
+    },
+    {
+      "titulo": "teste",
+      "preco": "123",
+      "autor": "Rosana Rios",
+      "urlImage": "https://m.media-amazon.com/images/I/816M75AiqSL._SY425_.jpg",
+      "resumo": "dasda",
+      "quantidade": 1,
+      "id": 6
+    },
+    {
+      "titulo": "O livro de ouro da mitologia: Histórias de deuses e heróis",
+      "preco": "39.0",
+      "autor": " Thomas Bulfinch ",
+      "urlImage": "https://m.media-amazon.com/images/I/81F+R0fGbFL._SL1500_.jpg",
+      "resumo": "Altares ruíram e templos se perderam nas areias do tempo, mas as religiões da Grécia e da Roma Antigas nunca despareceram por completo. Seu legado de mitos e heróis continua presente até hoje, e é o pilar da cultura ocidental. As histórias passadas de geração a geração há milênios, que hoje são peças-chave das mais populares e consagradas obras de diversas formas de arte estão reunidas aqui, sob as bênçãos de Zeus.As mais cativantes narrativas que a mente humana já criou transportam o leitor para terras onde fatos incríveis acontecem - onde belas ninfas e corajosos heróis veem seus destinos nas mãos de caprichosos deuses e criaturas fantásticas ganham vida.",
+      "quantidade": 1,
+      "id": 7
+    }
+  ]
+}

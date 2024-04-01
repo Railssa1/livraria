@@ -1,0 +1,16 @@
+<div class="modal-header justify-content-between">
+  <h4 class="modal-title">Continuar comprando?</h4>
+  <div>
+    <button type="button" class="close me-2" aria-label="Close" (click)="fecharModal()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+</div>
+<div class="modal-body">
+  <p>Deseja continuar comprando, você será redirecionado para o menu principal ou ir para o carrinho?</p>
+</div>
+
+<div class="modal-footer">
+  <button type="button" class="btn btn-outline-success" routerLink="/" (click)="fecharModal()">Continuar comprando</button>
+  <button type="button" class="btn btn-outline-danger" routerLink="/carrinho" (click)="fecharModal()">Ir para o carrinho</button>
+</div>

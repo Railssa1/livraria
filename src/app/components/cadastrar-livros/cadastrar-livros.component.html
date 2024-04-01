@@ -1,0 +1,102 @@
+<div class="container m-4">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h2 class="text-center mb-4">Cadastro de Livros</h2>
+      <form [formGroup]="formulario">
+        <div class="mb-3">
+          <label for="titulo" class="form-label">Título:</label>
+          <input
+              type="text"
+              class="form-control"
+              id="titulo"
+              name="titulo"
+              placeholder="Digite o título do livro"
+              formControlName="titulo">
+        </div>
+        <div class="text-danger mb-2"
+          *ngIf="formulario.get('titulo')?.errors && formulario.get('titulo')?.touched">
+          Titulo é obrigatorio!
+        </div>
+
+        <div class="mb-3">
+          <label for="preco" class="form-label">Preço:</label>
+          <input
+              type="text"
+              class="form-control"
+              id="preco"
+              name="preco"
+              placeholder="Digite o preço do livro"
+              formControlName="preco">
+        </div>
+        <div class="text-danger mb-2"
+          *ngIf="formulario.get('preco')?.errors && formulario.get('preco')?.touched">
+          Preço é obrigatorio!
+        </div>
+
+        <div class="mb-3">
+          <label for="autor" class="form-label">Autor:</label>
+          <input
+              type="text"
+              class="form-control"
+              id="autor"
+              name="autor"
+              placeholder="Digite o nome do autor"
+              formControlName="autor">
+        </div>
+        <div class="text-danger mb-2"
+          *ngIf="formulario.get('autor')?.errors && formulario.get('autor')?.touched">
+          Autor é obrigatorio!
+        </div>
+
+        <div class="mb-3">
+          <label for="urlImage" class="form-label">URL da Imagem:</label>
+          <input
+              type="url"
+              class="form-control"
+              id="urlImage"
+              name="urlImage"
+              placeholder="Digite a URL da imagem da capa do livro"
+              formControlName="urlImage">
+        </div>
+        <div class="text-danger mb-2"
+          *ngIf="formulario.get('urlImage')?.errors && formulario.get('urlImage')?.touched">
+          Url da imagem é obrigatorio!
+        </div>
+
+        <div class="mb-3">
+          <label for="resumo" class="form-label">Resumo:</label>
+          <textarea
+              class="form-control"
+              id="resumo" name="resumo"
+              rows="4"
+              placeholder="Digite um resumo do livro"
+              formControlName="resumo">
+          </textarea>
+        </div>
+        <div class="text-danger mb-2"
+          *ngIf="formulario.get('resumo')?.errors && formulario.get('resumo')?.touched">
+          Resumo é obrigatorio!
+        </div>
+
+        <div class="mb-3">
+          <label for="quantidade" class="form-label">Quantidade:</label>
+          <input
+              type="number"
+              class="form-control"
+              id="quantidade"
+              name="quantidade"
+              placeholder="Digite a quantidade disponível do livro"
+              formControlName="quantidade">
+        </div>
+        <div class="text-danger mb-2"
+          *ngIf="formulario.get('quantidade')?.errors && formulario.get('quantidade')?.touched">
+          Quantidade é obrigatorio!
+        </div>
+
+        <div class="d-grid">
+          <button type="submit" class="btn btn-primary" (click)="cadastrar()">Cadastrar Livro</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
